@@ -1,1 +1,2 @@
-Git is version control system used to track changes in the files
+Git is version control system used to track changes in the files.
+Provide features like branching and merging.
