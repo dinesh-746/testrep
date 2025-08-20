@@ -1,5 +1,5 @@
-num1 = int(input('Enter your first number: '))
-num2 = int(input('Enter your second number: '))
+number1 = int(input('Enter your first number: '))
+number2 = int(input('Enter your second numberber: '))
 
 print('Choose your action: \n1.Add\n2.Subtract\n3.Multiply\n4.Divide')
 
@@ -11,17 +11,17 @@ while True:
         print('Please enter valid action')
  
 if calculation=='add':
-    num3=num1+num2
-    print(f'Addition of {num1} and {num2} is {num3}')
+    number3=number1+number2
+    print(f'Addition of {number1} and {number2} is {number3}')
 elif calculation=='subtract':
-    num3=num1-num2
-    print(f'Subtraction of {num1} and {num2} is {num3}')
+    number3=number1-number2
+    print(f'Subtraction of {number1} and {number2} is {number3}')
 elif calculation=='multiply':
-    num3=num1*num2
-    print(f'Muliplication of {num1} and {num2} is {num3}')
+    number3=number1*number2
+    print(f'Muliplication of {number1} and {number2} is {number3}')
 elif calculation=='divide':
-    if num2==0:
+    if number2==0:
         print('Cannot divide by zero')
     else:
-        num3=num1//num2
-        print(f'Division of {num1} and {num2} is {num3}')
+        number3=number1//number2
+        print(f'Division of {number1} and {number2} is {number3}')
