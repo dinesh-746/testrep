@@ -1,5 +1,5 @@
-number1 = int(input('Enter your first number: '))
-number2 = int(input('Enter your second numberber: '))
+number1 = int(input('Enter your first num: '))
+number2 = int(input('Enter your second num: '))
 
 print('Choose your action: \n1.Add\n2.Subtract\n3.Multiply\n4.Divide')
 
